@@ -1,0 +1,1107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{a98a2143-ef14-44e7-882f-b48e90d951a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Source Files">
+      <UniqueIdentifier>{09428d04-682f-429d-80c3-5d53b73cdcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Header Files">
+      <UniqueIdentifier>{bd2f1517-0106-4504-a9ca-dd07eb63e755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Inline Files">
+      <UniqueIdentifier>{e6e3c01d-904a-4e71-8803-17aeb39489b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{c1557be0-8e24-42db-909c-4f683629aba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\Source Files">
+      <UniqueIdentifier>{f4646d66-8b5c-4bdf-a847-34bae30d219d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\Header Files">
+      <UniqueIdentifier>{1f12fd74-f50b-4e66-8e43-74ebf46f5674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\Inline Files">
+      <UniqueIdentifier>{ec4985e9-7f98-4ad3-a6e3-0504e72e6fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves">
+      <UniqueIdentifier>{0ad71967-8734-4e76-9af8-3c3bb5cddf42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves\Source Files">
+      <UniqueIdentifier>{430e98c9-068f-431d-aa54-33c23ac22a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves\Header Files">
+      <UniqueIdentifier>{dd4d8077-97fe-4811-8477-6e19cf816e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves\Inline Files">
+      <UniqueIdentifier>{6505af2e-78f7-41d4-95e3-f901354c882a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detail">
+      <UniqueIdentifier>{4bc3e611-225b-453a-92e4-0c5888c92956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detail\Source Files">
+      <UniqueIdentifier>{dc3ad4da-5949-47a9-9469-363af23b43a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detail\Header Files">
+      <UniqueIdentifier>{514d3a1a-b171-40ce-a49d-dbee6b86e960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detail\Inline Files">
+      <UniqueIdentifier>{0c8568be-b9b5-482a-9361-1f87e5564bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{f645faef-423e-4314-9f68-7e4fef0016df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\Source Files">
+      <UniqueIdentifier>{bce255e2-ba97-4dd8-a0a2-de9c772c5c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\Header Files">
+      <UniqueIdentifier>{7e393535-b2f8-4800-908d-e31a9e31ecc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\Inline Files">
+      <UniqueIdentifier>{fcf394de-71e1-4fdb-8884-ffe3a78fa184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectSystem">
+      <UniqueIdentifier>{2c2467d8-2db1-4281-9a68-df2e26d23046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectSystem\Source Files">
+      <UniqueIdentifier>{be3f613f-2848-42e2-842c-eee59773a01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectSystem\Header Files">
+      <UniqueIdentifier>{25fd01a8-22de-4cd6-8f0f-7f3da89d4b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectSystem\Inline Files">
+      <UniqueIdentifier>{312e74ef-a3a1-4671-a967-d98dc1cb0f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{760f66a0-a720-464f-9b6f-371ea5b21188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Source Files">
+      <UniqueIdentifier>{eea2885e-3aeb-4cbe-9ac6-575c849989cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Header Files">
+      <UniqueIdentifier>{3585dcd0-b3bd-4331-bdb1-47d921703219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\Inline Files">
+      <UniqueIdentifier>{b0279377-53a8-4555-9ff8-ae1326b5d557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6b757311-498f-4753-9b59-ad6ed1060663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Source Files">
+      <UniqueIdentifier>{62968458-b76a-4a90-a56e-5ec6bd0e0349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Header Files">
+      <UniqueIdentifier>{15b891e2-9db9-4ecd-8f84-0e6df560d74e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Inline Files">
+      <UniqueIdentifier>{a63423f8-4750-4a09-8524-cc7171eef8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedArrays">
+      <UniqueIdentifier>{2c45fb03-1d7d-4d53-9d66-4d50b72e0b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedArrays\Header Files">
+      <UniqueIdentifier>{49c3052d-0127-4c69-aab0-5ce12024d63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedArrays\Inline Files">
+      <UniqueIdentifier>{2d4d1ca6-909d-450f-8508-224f89e47115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedArrays\Source Files">
+      <UniqueIdentifier>{0c71061a-a2f1-48ef-b596-d9a2ecec51da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorting">
+      <UniqueIdentifier>{59fc9f8c-b7b5-477d-a1dc-085cf62af9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorting\Source Files">
+      <UniqueIdentifier>{fd869611-2a8d-41a4-89f0-b35f1392e52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorting\Header Files">
+      <UniqueIdentifier>{48fd3ef7-da12-4536-972d-f8dc9d6d6b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorting\Inline Files">
+      <UniqueIdentifier>{dae9945d-97b4-467d-80e1-d62dc476fb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfaces">
+      <UniqueIdentifier>{c2213dcc-8cfe-43f6-8265-f9d5c7495e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfaces\Source Files">
+      <UniqueIdentifier>{cb6983a4-be73-4154-8fd7-bdba4b36b0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfaces\Header Files">
+      <UniqueIdentifier>{d51e998d-bea1-493e-9cc7-83c4a4649d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfaces\Inline Files">
+      <UniqueIdentifier>{0e211830-6b3f-441b-bda5-d112cc88cc6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{4316b9cc-fc4e-4f08-ab35-c489071ec0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\Source Files">
+      <UniqueIdentifier>{d2e89a6c-d4d9-47e9-8147-97af8083d11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\Header Files">
+      <UniqueIdentifier>{5826dc54-8f82-4901-9b7a-f83047c36be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\Inline Files">
+      <UniqueIdentifier>{d4a4ca83-251b-4afa-9366-d1adc8fd74cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{280003ee-f813-4b9a-8245-7a071129d9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Header Files">
+      <UniqueIdentifier>{9ac5cfed-6dd9-44a9-b124-fa8d287b2aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Inline Files">
+      <UniqueIdentifier>{598c5e38-3fbc-4062-ace9-fba9612c5177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Source Files">
+      <UniqueIdentifier>{12de3bea-8d8a-48fc-83e8-0ba25eda778b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Collision\Wm4BoundingVolumeTree.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Wm4BoxBVTree.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Wm4CollisionGroup.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Wm4CollisionRecord.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Wm4SphereBVTree.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4Controller.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4IKController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4IKGoal.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4IKJoint.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4KeyframeController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4MorphController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4ParticleController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4PointController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Wm4SkinController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4CurveMesh.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4CurveSegment.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\Wm4BillboardNode.cpp">
+      <Filter>Detail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\Wm4ClodMesh.cpp">
+      <Filter>Detail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\Wm4CollapseRecord.cpp">
+      <Filter>Detail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\Wm4CreateClodMesh.cpp">
+      <Filter>Detail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\Wm4DlodNode.cpp">
+      <Filter>Detail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\Wm4SwitchNode.cpp">
+      <Filter>Detail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4DefaultShaderEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4Effect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4LightingEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4MaterialEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4MaterialTextureEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4MultitextureEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4PlanarReflectionEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4PlanarShadowEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4ShaderEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4TextureEffect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4VertexColor3Effect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4VertexColor4Effect.cpp">
+      <Filter>Effects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem\Wm4ImageVersion.cpp">
+      <Filter>ObjectSystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem\Wm4Main.cpp">
+      <Filter>ObjectSystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem\Wm4Object.cpp">
+      <Filter>ObjectSystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem\Wm4Rtti.cpp">
+      <Filter>ObjectSystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem\Wm4Stream.cpp">
+      <Filter>ObjectSystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem\Wm4StreamVersion.cpp">
+      <Filter>ObjectSystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem\Wm4StringTree.cpp">
+      <Filter>ObjectSystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Attributes.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4BoundingVolume.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4BoxBV.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4CameraNode.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Culler.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Geometry.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4IndexBuffer.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4LightNode.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Node.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Particles.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Polyline.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Polypoint.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Spatial.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4SphereBV.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4StandardMesh.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Transformation.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4TriMesh.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4VertexBuffer.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4VisibleSet.cpp">
+      <Filter>SceneGraph\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4ImageCatalog.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4NumericalConstant.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4PixelProgram.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4PixelProgramCatalog.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4PixelShader.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4Program.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4RendererConstant.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4SamplerInformation.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4Shader.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4UserConstant.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4VertexProgram.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4VertexProgramCatalog.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Wm4VertexShader.cpp">
+      <Filter>Shaders\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4ColorRGBAArray.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4ColorRGBArray.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4DoubleArray.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4FloatArray.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4IntArray.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4Matrix2Array.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4Matrix3Array.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4Matrix4Array.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4Plane3Array.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4QuaternionArray.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4Vector2Array.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4Vector3Array.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedArrays\Wm4Vector4Array.cpp">
+      <Filter>SharedArrays\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting\Wm4BspNode.cpp">
+      <Filter>Sorting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting\Wm4ConvexRegion.cpp">
+      <Filter>Sorting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting\Wm4ConvexRegionManager.cpp">
+      <Filter>Sorting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting\Wm4CRMCuller.cpp">
+      <Filter>Sorting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting\Wm4Portal.cpp">
+      <Filter>Sorting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4BoxSurface.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4BSplineSurfacePatch.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4RectangleSurface.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4RevolutionSurface.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4SurfaceMesh.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4SurfacePatch.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4TubeSurface.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Wm4ClodTerrain.cpp">
+      <Filter>Terrain\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Wm4ClodTerrainBlock.cpp">
+      <Filter>Terrain\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Wm4ClodTerrainPage.cpp">
+      <Filter>Terrain\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Wm4ClodTerrainVertex.cpp">
+      <Filter>Terrain\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Wm4Terrain.cpp">
+      <Filter>Terrain\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Wm4TerrainPage.cpp">
+      <Filter>Terrain\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4AlphaState.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Bindable.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Camera.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4CullState.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4FrameBuffer.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4GlobalState.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Image.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Light.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4MaterialState.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4PolygonOffsetState.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Renderer.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4StencilState.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Texture.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4WireframeState.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4ZBufferState.cpp">
+      <Filter>Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4GraphicsPCH.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision\Wm4BoundingVolumeTree.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Wm4BoxBVTree.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Wm4CollisionGroup.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Wm4CollisionRecord.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Wm4SphereBVTree.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4Controller.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4IKController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4IKGoal.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4IKJoint.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4KeyframeController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4MorphController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4ParticleController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4PointController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Wm4SkinController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4CurveMesh.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4CurveSegment.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Wm4BillboardNode.h">
+      <Filter>Detail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Wm4ClodMesh.h">
+      <Filter>Detail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Wm4CollapseRecord.h">
+      <Filter>Detail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Wm4CreateClodMesh.h">
+      <Filter>Detail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Wm4DlodNode.h">
+      <Filter>Detail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\Wm4SwitchNode.h">
+      <Filter>Detail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4DefaultShaderEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4Effect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4LightingEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4MaterialEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4MaterialTextureEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4MultitextureEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4PlanarReflectionEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4PlanarShadowEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4ShaderEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4TextureEffect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4VertexColor3Effect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Wm4VertexColor4Effect.h">
+      <Filter>Effects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4ImageVersion.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4Main.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4MainMCR.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4NameIdMCR.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4Object.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4Rtti.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4RttiMCR.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4SmartPointer.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4Stream.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4StreamMCR.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4StreamVersion.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem\Wm4StringTree.h">
+      <Filter>ObjectSystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Attributes.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4BoundingVolume.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4BoxBV.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4CameraNode.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Culler.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Geometry.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4IndexBuffer.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4LightNode.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Node.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Particles.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Polyline.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Polypoint.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Spatial.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4SphereBV.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4StandardMesh.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4Transformation.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4TriMesh.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4VertexBuffer.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4VisibleObject.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph\Wm4VisibleSet.h">
+      <Filter>SceneGraph\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4ImageCatalog.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4NumericalConstant.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4PixelProgram.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4PixelProgramCatalog.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4PixelShader.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4Program.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4RendererConstant.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4SamplerInformation.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4Shader.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4UserConstant.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4VertexProgram.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4VertexProgramCatalog.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Wm4VertexShader.h">
+      <Filter>Shaders\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4ColorRGBAArray.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4ColorRGBArray.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4DoubleArray.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4FloatArray.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4IntArray.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4Matrix2Array.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4Matrix3Array.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4Matrix4Array.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4Plane3Array.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4QuaternionArray.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4TSharedArray.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4Vector2Array.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4Vector3Array.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedArrays\Wm4Vector4Array.h">
+      <Filter>SharedArrays\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorting\Wm4BspNode.h">
+      <Filter>Sorting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorting\Wm4ConvexRegion.h">
+      <Filter>Sorting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorting\Wm4ConvexRegionManager.h">
+      <Filter>Sorting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorting\Wm4CRMCuller.h">
+      <Filter>Sorting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorting\Wm4Portal.h">
+      <Filter>Sorting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4BoxSurface.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4BSplineSurfacePatch.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4RectangleSurface.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4RevolutionSurface.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4SurfaceMesh.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4SurfacePatch.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4TubeSurface.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Wm4ClodTerrain.h">
+      <Filter>Terrain\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Wm4ClodTerrainBlock.h">
+      <Filter>Terrain\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Wm4ClodTerrainPage.h">
+      <Filter>Terrain\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Wm4ClodTerrainVertex.h">
+      <Filter>Terrain\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Wm4Terrain.h">
+      <Filter>Terrain\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Wm4TerrainPage.h">
+      <Filter>Terrain\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4AlphaState.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4Bindable.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4Camera.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4CullState.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4FrameBuffer.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4GlobalState.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4Image.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4Light.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4MaterialState.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4PolygonOffsetState.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4Renderer.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4StencilState.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4Texture.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4WireframeState.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Wm4ZBufferState.h">
+      <Filter>Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4Graphics.h" />
+    <ClInclude Include="Wm4GraphicsLIB.h" />
+    <ClInclude Include="Wm4GraphicsPCH.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Collision\Wm4BoundingVolumeTree.inl">
+      <Filter>Collision\Inline Files</Filter>
+    </None>
+    <None Include="Collision\Wm4CollisionRecord.inl">
+      <Filter>Collision\Inline Files</Filter>
+    </None>
+    <None Include="Controllers\Wm4Controller.inl">
+      <Filter>Controllers\Inline Files</Filter>
+    </None>
+    <None Include="Controllers\Wm4IKGoal.inl">
+      <Filter>Controllers\Inline Files</Filter>
+    </None>
+    <None Include="Controllers\Wm4MorphController.inl">
+      <Filter>Controllers\Inline Files</Filter>
+    </None>
+    <None Include="Controllers\Wm4ParticleController.inl">
+      <Filter>Controllers\Inline Files</Filter>
+    </None>
+    <None Include="Controllers\Wm4PointController.inl">
+      <Filter>Controllers\Inline Files</Filter>
+    </None>
+    <None Include="Controllers\Wm4SkinController.inl">
+      <Filter>Controllers\Inline Files</Filter>
+    </None>
+    <None Include="Curves\Wm4CurveMesh.inl">
+      <Filter>Curves\Inline Files</Filter>
+    </None>
+    <None Include="Curves\Wm4CurveSegment.inl">
+      <Filter>Curves\Inline Files</Filter>
+    </None>
+    <None Include="Detail\Wm4BillboardNode.inl">
+      <Filter>Detail\Inline Files</Filter>
+    </None>
+    <None Include="Detail\Wm4ClodMesh.inl">
+      <Filter>Detail\Inline Files</Filter>
+    </None>
+    <None Include="Detail\Wm4DlodNode.inl">
+      <Filter>Detail\Inline Files</Filter>
+    </None>
+    <None Include="Detail\Wm4SwitchNode.inl">
+      <Filter>Detail\Inline Files</Filter>
+    </None>
+    <None Include="Effects\Wm4LightingEffect.inl">
+      <Filter>Effects\Inline Files</Filter>
+    </None>
+    <None Include="Effects\Wm4PlanarReflectionEffect.inl">
+      <Filter>Effects\Inline Files</Filter>
+    </None>
+    <None Include="Effects\Wm4PlanarShadowEffect.inl">
+      <Filter>Effects\Inline Files</Filter>
+    </None>
+    <None Include="ObjectSystem\Wm4Object.inl">
+      <Filter>ObjectSystem\Inline Files</Filter>
+    </None>
+    <None Include="ObjectSystem\Wm4Rtti.inl">
+      <Filter>ObjectSystem\Inline Files</Filter>
+    </None>
+    <None Include="ObjectSystem\Wm4SmartPointer.inl">
+      <Filter>ObjectSystem\Inline Files</Filter>
+    </None>
+    <None Include="ObjectSystem\Wm4Stream.inl">
+      <Filter>ObjectSystem\Inline Files</Filter>
+    </None>
+    <None Include="ObjectSystem\Wm4StringTree.inl">
+      <Filter>ObjectSystem\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Attributes.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4BoxBV.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4CameraNode.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Culler.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Geometry.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4IndexBuffer.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4LightNode.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Node.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Particles.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Polyline.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Polypoint.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Spatial.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4SphereBV.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4Transformation.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4TriMesh.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4VertexBuffer.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4VisibleObject.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="SceneGraph\Wm4VisibleSet.inl">
+      <Filter>SceneGraph\Inline Files</Filter>
+    </None>
+    <None Include="Shaders\Wm4NumericalConstant.inl">
+      <Filter>Shaders\Inline Files</Filter>
+    </None>
+    <None Include="Shaders\Wm4Program.inl">
+      <Filter>Shaders\Inline Files</Filter>
+    </None>
+    <None Include="Shaders\Wm4RendererConstant.inl">
+      <Filter>Shaders\Inline Files</Filter>
+    </None>
+    <None Include="Shaders\Wm4SamplerInformation.inl">
+      <Filter>Shaders\Inline Files</Filter>
+    </None>
+    <None Include="Shaders\Wm4Shader.inl">
+      <Filter>Shaders\Inline Files</Filter>
+    </None>
+    <None Include="Shaders\Wm4UserConstant.inl">
+      <Filter>Shaders\Inline Files</Filter>
+    </None>
+    <None Include="SharedArrays\Wm4TSharedArray.inl">
+      <Filter>SharedArrays\Inline Files</Filter>
+    </None>
+    <None Include="Sorting\Wm4BspNode.inl">
+      <Filter>Sorting\Inline Files</Filter>
+    </None>
+    <None Include="Sorting\Wm4ConvexRegion.inl">
+      <Filter>Sorting\Inline Files</Filter>
+    </None>
+    <None Include="Sorting\Wm4Portal.inl">
+      <Filter>Sorting\Inline Files</Filter>
+    </None>
+    <None Include="Surfaces\Wm4BoxSurface.inl">
+      <Filter>Surfaces\Inline Files</Filter>
+    </None>
+    <None Include="Surfaces\Wm4RectangleSurface.inl">
+      <Filter>Surfaces\Inline Files</Filter>
+    </None>
+    <None Include="Surfaces\Wm4RevolutionSurface.inl">
+      <Filter>Surfaces\Inline Files</Filter>
+    </None>
+    <None Include="Surfaces\Wm4SurfaceMesh.inl">
+      <Filter>Surfaces\Inline Files</Filter>
+    </None>
+    <None Include="Surfaces\Wm4SurfacePatch.inl">
+      <Filter>Surfaces\Inline Files</Filter>
+    </None>
+    <None Include="Surfaces\Wm4TubeSurface.inl">
+      <Filter>Surfaces\Inline Files</Filter>
+    </None>
+    <None Include="Terrain\Wm4ClodTerrain.inl">
+      <Filter>Terrain\Inline Files</Filter>
+    </None>
+    <None Include="Terrain\Wm4ClodTerrainBlock.inl">
+      <Filter>Terrain\Inline Files</Filter>
+    </None>
+    <None Include="Terrain\Wm4ClodTerrainPage.inl">
+      <Filter>Terrain\Inline Files</Filter>
+    </None>
+    <None Include="Terrain\Wm4ClodTerrainVertex.inl">
+      <Filter>Terrain\Inline Files</Filter>
+    </None>
+    <None Include="Terrain\Wm4Terrain.inl">
+      <Filter>Terrain\Inline Files</Filter>
+    </None>
+    <None Include="Terrain\Wm4TerrainPage.inl">
+      <Filter>Terrain\Inline Files</Filter>
+    </None>
+    <None Include="Rendering\Wm4Camera.inl">
+      <Filter>Rendering\Inline Files</Filter>
+    </None>
+    <None Include="Rendering\Wm4FrameBuffer.inl">
+      <Filter>Rendering\Inline Files</Filter>
+    </None>
+    <None Include="Rendering\Wm4Image.inl">
+      <Filter>Rendering\Inline Files</Filter>
+    </None>
+    <None Include="Rendering\Wm4Renderer.inl">
+      <Filter>Rendering\Inline Files</Filter>
+    </None>
+    <None Include="Rendering\Wm4Texture.inl">
+      <Filter>Rendering\Inline Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

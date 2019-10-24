@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug DLL|Win32">
+      <Configuration>Debug DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Memory|Win32">
+      <Configuration>Debug Memory</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="NoPCH|Win32">
+      <Configuration>NoPCH</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release DLL|Win32">
+      <Configuration>Release DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Memory|Win32">
+      <Configuration>Release Memory</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2DD3CF23-8F73-4111-82BF-BCE9CF819735}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\VC80\</OutDir>
+    <IntDir>Debug\VC80\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\VC80\</OutDir>
+    <IntDir>Release\VC80\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+    <OutDir>DebugDLL\VC80\</OutDir>
+    <IntDir>DebugDLL\VC80\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+    <OutDir>ReleaseDLL\VC80\</OutDir>
+    <IntDir>ReleaseDLL\VC80\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">
+    <OutDir>DebugMemory\VC80\</OutDir>
+    <IntDir>DebugMemory\VC80\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">
+    <OutDir>ReleaseMemory\VC80\</OutDir>
+    <IntDir>ReleaseMemory\VC80\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">
+    <OutDir>NoPCH\VC80\</OutDir>
+    <IntDir>NoPCH\VC80\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;Collision;Controllers;Curves;Detail;Effects;ObjectSystem;Rendering;SceneGraph;Shaders;SharedArrays;Sorting;Surfaces;Terrain;..\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;WM4_USE_PRECOMPILED_HEADERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Wm4GraphicsPCH.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\SDK\Library\Debug\Wm4Graphics80d.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy /y Collision\*.h ..\SDK\Include
+copy /y Collision\*.inl ..\SDK\Include
+copy /y Controllers\*.h ..\SDK\Include
+copy /y Controllers\*.inl ..\SDK\Include
+copy /y Curves\*.h ..\SDK\Include
+copy /y Curves\*.inl ..\SDK\Include
+copy /y Detail\*.h ..\SDK\Include
+copy /y Detail\*.inl ..\SDK\Include
+copy /y Effects\*.h ..\SDK\Include
+copy /y Effects\*.inl ..\SDK\Include
+copy /y ObjectSystem\*.h ..\SDK\Include
+copy /y ObjectSystem\*.inl ..\SDK\Include
+copy /y Rendering\*.h ..\SDK\Include
+copy /y Rendering\*.inl ..\SDK\Include
+copy /y SceneGraph\*.h ..\SDK\Include
+copy /y SceneGraph\*.inl ..\SDK\Include
+copy /y Shaders\*.h ..\SDK\Include
+copy /y Shaders\*.inl ..\SDK\Include
+copy /y SharedArrays\*.h ..\SDK\Include
+copy /y SharedArrays\*.inl ..\SDK\Include
+copy /y Sorting\*.h ..\SDK\Include
+copy /y Sorting\*.inl ..\SDK\Include
+copy /y Surfaces\*.h ..\SDK\Include
+copy /y Surfaces\*.inl ..\SDK\Include
+copy /y Terrain\*.h ..\SDK\Include
+copy /y Terrain\*.inl ..\SDK\Include
+copy /y *.h ..\SDK\Include
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;Collision;Controllers;Curves;Detail;Effects;ObjectSystem;Rendering;SceneGraph;Shaders;SharedArrays;Sorting;Surfaces;Terrain;..\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;WM4_USE_PRECOMPILED_HEADERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Wm4GraphicsPCH.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\SDK\Library\Release\Wm4Graphics80.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy /y Collision\*.h ..\SDK\Include
+copy /y Collision\*.inl ..\SDK\Include
+copy /y Controllers\*.h ..\SDK\Include
+copy /y Controllers\*.inl ..\SDK\Include
+copy /y Curves\*.h ..\SDK\Include
+copy /y Curves\*.inl ..\SDK\Include
+copy /y Detail\*.h ..\SDK\Include
+copy /y Detail\*.inl ..\SDK\Include
+copy /y Effects\*.h ..\SDK\Include
+copy /y Effects\*.inl ..\SDK\Include
+copy /y ObjectSystem\*.h ..\SDK\Include
+copy /y ObjectSystem\*.inl ..\SDK\Include
+copy /y Rendering\*.h ..\SDK\Include
+copy /y Rendering\*.inl ..\SDK\Include
+copy /y SceneGraph\*.h ..\SDK\Include
+copy /y SceneGraph\*.inl ..\SDK\Include
+copy /y Shaders\*.h ..\SDK\Include
+copy /y Shaders\*.inl ..\SDK\Include
+copy /y SharedArrays\*.h ..\SDK\Include
+copy /y SharedArrays\*.inl ..\SDK\Include
+copy /y Sorting\*.h ..\SDK\Include
+copy /y Sorting\*.inl ..\SDK\Include
+copy /y Surfaces\*.h ..\SDK\Include
+copy /y Surfaces\*.inl ..\SDK\Include
+copy /y Terrain\*.h ..\SDK\Include
+copy /y Terrain\*.inl ..\SDK\Include
+copy /y *.h ..\SDK\Include
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;Collision;Controllers;Curves;Detail;Effects;ObjectSystem;Rendering;SceneGraph;Shaders;SharedArrays;Sorting;Surfaces;Terrain;..\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;WM4_USE_PRECOMPILED_HEADERS;WM4_FOUNDATION_DLL_IMPORT;WM4_GRAPHICS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Wm4GraphicsPCH.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Wm4Foundation80d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\SDK\Library\DebugDLL\Wm4Graphics80d.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\SDK\Library\DebugDLL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>NotSet</SubSystem>
+      <ImportLibrary>..\SDK\Library\DebugDLL\Wm4Graphics80d.lib</ImportLibrary>
+      <TargetMachine>NotSet</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y Collision\*.h ..\SDK\Include
+copy /y Collision\*.inl ..\SDK\Include
+copy /y Controllers\*.h ..\SDK\Include
+copy /y Controllers\*.inl ..\SDK\Include
+copy /y Curves\*.h ..\SDK\Include
+copy /y Curves\*.inl ..\SDK\Include
+copy /y Detail\*.h ..\SDK\Include
+copy /y Detail\*.inl ..\SDK\Include
+copy /y Effects\*.h ..\SDK\Include
+copy /y Effects\*.inl ..\SDK\Include
+copy /y ObjectSystem\*.h ..\SDK\Include
+copy /y ObjectSystem\*.inl ..\SDK\Include
+copy /y Rendering\*.h ..\SDK\Include
+copy /y Rendering\*.inl ..\SDK\Include
+copy /y SceneGraph\*.h ..\SDK\Include
+copy /y SceneGraph\*.inl ..\SDK\Include
+copy /y Shaders\*.h ..\SDK\Include
+copy /y Shaders\*.inl ..\SDK\Include
+copy /y SharedArrays\*.h ..\SDK\Include
+copy /y SharedArrays\*.inl ..\SDK\Include
+copy /y Sorting\*.h ..\SDK\Include
+copy /y Sorting\*.inl ..\SDK\Include
+copy /y Surfaces\*.h ..\SDK\Include
+copy /y Surfaces\*.inl ..\SDK\Include
+copy /y Terrain\*.h ..\SDK\Include
+copy /y Terrain\*.inl ..\SDK\Include
+copy /y *.h ..\SDK\Include
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;Collision;Controllers;Curves;Detail;Effects;ObjectSystem;Rendering;SceneGraph;Shaders;SharedArrays;Sorting;Surfaces;Terrain;..\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;WM4_USE_PRECOMPILED_HEADERS;WM4_FOUNDATION_DLL_IMPORT;WM4_GRAPHICS_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Wm4GraphicsPCH.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Wm4Foundation80.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\SDK\Library\ReleaseDLL\Wm4Graphics80.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\SDK\Library\ReleaseDLL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+      <OptimizeReferences />
+      <EnableCOMDATFolding />
+      <ImportLibrary>..\SDK\Library\ReleaseDLL\Wm4Graphics80.lib</ImportLibrary>
+      <TargetMachine>NotSet</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y Collision\*.h ..\SDK\Include
+copy /y Collision\*.inl ..\SDK\Include
+copy /y Controllers\*.h ..\SDK\Include
+copy /y Controllers\*.inl ..\SDK\Include
+copy /y Curves\*.h ..\SDK\Include
+copy /y Curves\*.inl ..\SDK\Include
+copy /y Detail\*.h ..\SDK\Include
+copy /y Detail\*.inl ..\SDK\Include
+copy /y Effects\*.h ..\SDK\Include
+copy /y Effects\*.inl ..\SDK\Include
+copy /y ObjectSystem\*.h ..\SDK\Include
+copy /y ObjectSystem\*.inl ..\SDK\Include
+copy /y Rendering\*.h ..\SDK\Include
+copy /y Rendering\*.inl ..\SDK\Include
+copy /y SceneGraph\*.h ..\SDK\Include
+copy /y SceneGraph\*.inl ..\SDK\Include
+copy /y Shaders\*.h ..\SDK\Include
+copy /y Shaders\*.inl ..\SDK\Include
+copy /y SharedArrays\*.h ..\SDK\Include
+copy /y SharedArrays\*.inl ..\SDK\Include
+copy /y Sorting\*.h ..\SDK\Include
+copy /y Sorting\*.inl ..\SDK\Include
+copy /y Surfaces\*.h ..\SDK\Include
+copy /y Surfaces\*.inl ..\SDK\Include
+copy /y Terrain\*.h ..\SDK\Include
+copy /y Terrain\*.inl ..\SDK\Include
+copy /y *.h ..\SDK\Include
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;Collision;Controllers;Curves;Detail;Effects;ObjectSystem;Rendering;SceneGraph;Shaders;SharedArrays;Sorting;Surfaces;Terrain;..\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;WM4_USE_PRECOMPILED_HEADERS;WM4_MEMORY_MANAGER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Wm4GraphicsPCH.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\SDK\Library\DebugMemory\Wm4Graphics80d.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy /y Collision\*.h ..\SDK\Include
+copy /y Collision\*.inl ..\SDK\Include
+copy /y Controllers\*.h ..\SDK\Include
+copy /y Controllers\*.inl ..\SDK\Include
+copy /y Curves\*.h ..\SDK\Include
+copy /y Curves\*.inl ..\SDK\Include
+copy /y Detail\*.h ..\SDK\Include
+copy /y Detail\*.inl ..\SDK\Include
+copy /y Effects\*.h ..\SDK\Include
+copy /y Effects\*.inl ..\SDK\Include
+copy /y ObjectSystem\*.h ..\SDK\Include
+copy /y ObjectSystem\*.inl ..\SDK\Include
+copy /y Rendering\*.h ..\SDK\Include
+copy /y Rendering\*.inl ..\SDK\Include
+copy /y SceneGraph\*.h ..\SDK\Include
+copy /y SceneGraph\*.inl ..\SDK\Include
+copy /y Shaders\*.h ..\SDK\Include
+copy /y Shaders\*.inl ..\SDK\Include
+copy /y SharedArrays\*.h ..\SDK\Include
+copy /y SharedArrays\*.inl ..\SDK\Include
+copy /y Sorting\*.h ..\SDK\Include
+copy /y Sorting\*.inl ..\SDK\Include
+copy /y Surfaces\*.h ..\SDK\Include
+copy /y Surfaces\*.inl ..\SDK\Include
+copy /y Terrain\*.h ..\SDK\Include
+copy /y Terrain\*.inl ..\SDK\Include
+copy /y *.h ..\SDK\Include
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;Collision;Controllers;Curves;Detail;Effects;ObjectSystem;Rendering;SceneGraph;Shaders;SharedArrays;Sorting;Surfaces;Terrain;..\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;WM4_USE_PRECOMPILED_HEADERS;WM4_MEMORY_MANAGER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Wm4GraphicsPCH.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\SDK\Library\ReleaseMemory\Wm4Graphics80.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy /y Collision\*.h ..\SDK\Include
+copy /y Collision\*.inl ..\SDK\Include
+copy /y Controllers\*.h ..\SDK\Include
+copy /y Controllers\*.inl ..\SDK\Include
+copy /y Curves\*.h ..\SDK\Include
+copy /y Curves\*.inl ..\SDK\Include
+copy /y Detail\*.h ..\SDK\Include
+copy /y Detail\*.inl ..\SDK\Include
+copy /y Effects\*.h ..\SDK\Include
+copy /y Effects\*.inl ..\SDK\Include
+copy /y ObjectSystem\*.h ..\SDK\Include
+copy /y ObjectSystem\*.inl ..\SDK\Include
+copy /y Rendering\*.h ..\SDK\Include
+copy /y Rendering\*.inl ..\SDK\Include
+copy /y SceneGraph\*.h ..\SDK\Include
+copy /y SceneGraph\*.inl ..\SDK\Include
+copy /y Shaders\*.h ..\SDK\Include
+copy /y Shaders\*.inl ..\SDK\Include
+copy /y SharedArrays\*.h ..\SDK\Include
+copy /y SharedArrays\*.inl ..\SDK\Include
+copy /y Sorting\*.h ..\SDK\Include
+copy /y Sorting\*.inl ..\SDK\Include
+copy /y Surfaces\*.h ..\SDK\Include
+copy /y Surfaces\*.inl ..\SDK\Include
+copy /y Terrain\*.h ..\SDK\Include
+copy /y Terrain\*.inl ..\SDK\Include
+copy /y *.h ..\SDK\Include
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;Collision;Controllers;Curves;Detail;Effects;ObjectSystem;Rendering;SceneGraph;Shaders;SharedArrays;Sorting;Surfaces;Terrain;..\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile />
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\SDK\Library\NoPCH\Wm4Graphics80d.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy /y Collision\*.h ..\SDK\Include
+copy /y Collision\*.inl ..\SDK\Include
+copy /y Controllers\*.h ..\SDK\Include
+copy /y Controllers\*.inl ..\SDK\Include
+copy /y Curves\*.h ..\SDK\Include
+copy /y Curves\*.inl ..\SDK\Include
+copy /y Detail\*.h ..\SDK\Include
+copy /y Detail\*.inl ..\SDK\Include
+copy /y Effects\*.h ..\SDK\Include
+copy /y Effects\*.inl ..\SDK\Include
+copy /y ObjectSystem\*.h ..\SDK\Include
+copy /y ObjectSystem\*.inl ..\SDK\Include
+copy /y Rendering\*.h ..\SDK\Include
+copy /y Rendering\*.inl ..\SDK\Include
+copy /y SceneGraph\*.h ..\SDK\Include
+copy /y SceneGraph\*.inl ..\SDK\Include
+copy /y Shaders\*.h ..\SDK\Include
+copy /y Shaders\*.inl ..\SDK\Include
+copy /y SharedArrays\*.h ..\SDK\Include
+copy /y SharedArrays\*.inl ..\SDK\Include
+copy /y Sorting\*.h ..\SDK\Include
+copy /y Sorting\*.inl ..\SDK\Include
+copy /y Surfaces\*.h ..\SDK\Include
+copy /y Surfaces\*.inl ..\SDK\Include
+copy /y Terrain\*.h ..\SDK\Include
+copy /y Terrain\*.inl ..\SDK\Include
+copy /y *.h ..\SDK\Include
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Collision\Wm4BoundingVolumeTree.cpp" />
+    <ClCompile Include="Collision\Wm4BoxBVTree.cpp" />
+    <ClCompile Include="Collision\Wm4CollisionGroup.cpp" />
+    <ClCompile Include="Collision\Wm4CollisionRecord.cpp" />
+    <ClCompile Include="Collision\Wm4SphereBVTree.cpp" />
+    <ClCompile Include="Controllers\Wm4Controller.cpp" />
+    <ClCompile Include="Controllers\Wm4IKController.cpp" />
+    <ClCompile Include="Controllers\Wm4IKGoal.cpp" />
+    <ClCompile Include="Controllers\Wm4IKJoint.cpp" />
+    <ClCompile Include="Controllers\Wm4KeyframeController.cpp" />
+    <ClCompile Include="Controllers\Wm4MorphController.cpp" />
+    <ClCompile Include="Controllers\Wm4ParticleController.cpp" />
+    <ClCompile Include="Controllers\Wm4PointController.cpp" />
+    <ClCompile Include="Controllers\Wm4SkinController.cpp" />
+    <ClCompile Include="Curves\Wm4CurveMesh.cpp" />
+    <ClCompile Include="Curves\Wm4CurveSegment.cpp" />
+    <ClCompile Include="Detail\Wm4BillboardNode.cpp" />
+    <ClCompile Include="Detail\Wm4ClodMesh.cpp" />
+    <ClCompile Include="Detail\Wm4CollapseRecord.cpp" />
+    <ClCompile Include="Detail\Wm4CreateClodMesh.cpp" />
+    <ClCompile Include="Detail\Wm4DlodNode.cpp" />
+    <ClCompile Include="Detail\Wm4SwitchNode.cpp" />
+    <ClCompile Include="Effects\Wm4DefaultShaderEffect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4Effect.cpp" />
+    <ClCompile Include="Effects\Wm4LightingEffect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4MaterialEffect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4MaterialTextureEffect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4MultitextureEffect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4PlanarReflectionEffect.cpp" />
+    <ClCompile Include="Effects\Wm4PlanarShadowEffect.cpp" />
+    <ClCompile Include="Effects\Wm4ShaderEffect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4TextureEffect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4VertexColor3Effect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Effects\Wm4VertexColor4Effect.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem\Wm4ImageVersion.cpp" />
+    <ClCompile Include="ObjectSystem\Wm4Main.cpp" />
+    <ClCompile Include="ObjectSystem\Wm4Object.cpp" />
+    <ClCompile Include="ObjectSystem\Wm4Rtti.cpp" />
+    <ClCompile Include="ObjectSystem\Wm4Stream.cpp" />
+    <ClCompile Include="ObjectSystem\Wm4StreamVersion.cpp" />
+    <ClCompile Include="ObjectSystem\Wm4StringTree.cpp" />
+    <ClCompile Include="Rendering\Wm4AlphaState.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Bindable.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Camera.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4CullState.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4FrameBuffer.cpp" />
+    <ClCompile Include="Rendering\Wm4GlobalState.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Image.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Light.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4MaterialState.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4PolygonOffsetState.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Renderer.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4StencilState.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4Texture.cpp" />
+    <ClCompile Include="Rendering\Wm4WireframeState.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Rendering\Wm4ZBufferState.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="SceneGraph\Wm4Attributes.cpp" />
+    <ClCompile Include="SceneGraph\Wm4BoundingVolume.cpp" />
+    <ClCompile Include="SceneGraph\Wm4BoxBV.cpp" />
+    <ClCompile Include="SceneGraph\Wm4CameraNode.cpp" />
+    <ClCompile Include="SceneGraph\Wm4Culler.cpp" />
+    <ClCompile Include="SceneGraph\Wm4Geometry.cpp" />
+    <ClCompile Include="SceneGraph\Wm4IndexBuffer.cpp" />
+    <ClCompile Include="SceneGraph\Wm4LightNode.cpp" />
+    <ClCompile Include="SceneGraph\Wm4Node.cpp" />
+    <ClCompile Include="SceneGraph\Wm4Particles.cpp" />
+    <ClCompile Include="SceneGraph\Wm4Polyline.cpp" />
+    <ClCompile Include="SceneGraph\Wm4Polypoint.cpp" />
+    <ClCompile Include="SceneGraph\Wm4Spatial.cpp" />
+    <ClCompile Include="SceneGraph\Wm4SphereBV.cpp" />
+    <ClCompile Include="SceneGraph\Wm4StandardMesh.cpp" />
+    <ClCompile Include="SceneGraph\Wm4Transformation.cpp" />
+    <ClCompile Include="SceneGraph\Wm4TriMesh.cpp" />
+    <ClCompile Include="SceneGraph\Wm4VertexBuffer.cpp" />
+    <ClCompile Include="SceneGraph\Wm4VisibleSet.cpp" />
+    <ClCompile Include="Shaders\Wm4ImageCatalog.cpp" />
+    <ClCompile Include="Shaders\Wm4NumericalConstant.cpp" />
+    <ClCompile Include="Shaders\Wm4PixelProgram.cpp" />
+    <ClCompile Include="Shaders\Wm4PixelProgramCatalog.cpp" />
+    <ClCompile Include="Shaders\Wm4PixelShader.cpp" />
+    <ClCompile Include="Shaders\Wm4Program.cpp" />
+    <ClCompile Include="Shaders\Wm4RendererConstant.cpp" />
+    <ClCompile Include="Shaders\Wm4SamplerInformation.cpp" />
+    <ClCompile Include="Shaders\Wm4Shader.cpp" />
+    <ClCompile Include="Shaders\Wm4UserConstant.cpp" />
+    <ClCompile Include="Shaders\Wm4VertexProgram.cpp" />
+    <ClCompile Include="Shaders\Wm4VertexProgramCatalog.cpp" />
+    <ClCompile Include="Shaders\Wm4VertexShader.cpp" />
+    <ClCompile Include="SharedArrays\Wm4ColorRGBAArray.cpp" />
+    <ClCompile Include="SharedArrays\Wm4ColorRGBArray.cpp" />
+    <ClCompile Include="SharedArrays\Wm4DoubleArray.cpp" />
+    <ClCompile Include="SharedArrays\Wm4FloatArray.cpp" />
+    <ClCompile Include="SharedArrays\Wm4IntArray.cpp" />
+    <ClCompile Include="SharedArrays\Wm4Matrix2Array.cpp" />
+    <ClCompile Include="SharedArrays\Wm4Matrix3Array.cpp" />
+    <ClCompile Include="SharedArrays\Wm4Matrix4Array.cpp" />
+    <ClCompile Include="SharedArrays\Wm4Plane3Array.cpp" />
+    <ClCompile Include="SharedArrays\Wm4QuaternionArray.cpp" />
+    <ClCompile Include="SharedArrays\Wm4Vector2Array.cpp" />
+    <ClCompile Include="SharedArrays\Wm4Vector3Array.cpp" />
+    <ClCompile Include="SharedArrays\Wm4Vector4Array.cpp" />
+    <ClCompile Include="Sorting\Wm4BspNode.cpp" />
+    <ClCompile Include="Sorting\Wm4ConvexRegion.cpp" />
+    <ClCompile Include="Sorting\Wm4ConvexRegionManager.cpp" />
+    <ClCompile Include="Sorting\Wm4CRMCuller.cpp" />
+    <ClCompile Include="Sorting\Wm4Portal.cpp" />
+    <ClCompile Include="Surfaces\Wm4BoxSurface.cpp" />
+    <ClCompile Include="Surfaces\Wm4BSplineSurfacePatch.cpp" />
+    <ClCompile Include="Surfaces\Wm4RectangleSurface.cpp" />
+    <ClCompile Include="Surfaces\Wm4RevolutionSurface.cpp" />
+    <ClCompile Include="Surfaces\Wm4SurfaceMesh.cpp" />
+    <ClCompile Include="Surfaces\Wm4SurfacePatch.cpp" />
+    <ClCompile Include="Surfaces\Wm4TubeSurface.cpp" />
+    <ClCompile Include="Terrain\Wm4ClodTerrain.cpp" />
+    <ClCompile Include="Terrain\Wm4ClodTerrainBlock.cpp" />
+    <ClCompile Include="Terrain\Wm4ClodTerrainPage.cpp" />
+    <ClCompile Include="Terrain\Wm4ClodTerrainVertex.cpp" />
+    <ClCompile Include="Terrain\Wm4Terrain.cpp" />
+    <ClCompile Include="Terrain\Wm4TerrainPage.cpp" />
+    <ClCompile Include="Wm4GraphicsPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Memory|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='NoPCH|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Memory|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision\Wm4BoundingVolumeTree.h" />
+    <ClInclude Include="Collision\Wm4BoxBVTree.h" />
+    <ClInclude Include="Collision\Wm4CollisionGroup.h" />
+    <ClInclude Include="Collision\Wm4CollisionRecord.h" />
+    <ClInclude Include="Collision\Wm4SphereBVTree.h" />
+    <ClInclude Include="Controllers\Wm4Controller.h" />
+    <ClInclude Include="Controllers\Wm4IKController.h" />
+    <ClInclude Include="Controllers\Wm4IKGoal.h" />
+    <ClInclude Include="Controllers\Wm4IKJoint.h" />
+    <ClInclude Include="Controllers\Wm4KeyframeController.h" />
+    <ClInclude Include="Controllers\Wm4MorphController.h" />
+    <ClInclude Include="Controllers\Wm4ParticleController.h" />
+    <ClInclude Include="Controllers\Wm4PointController.h" />
+    <ClInclude Include="Controllers\Wm4SkinController.h" />
+    <ClInclude Include="Curves\Wm4CurveMesh.h" />
+    <ClInclude Include="Curves\Wm4CurveSegment.h" />
+    <ClInclude Include="Detail\Wm4BillboardNode.h" />
+    <ClInclude Include="Detail\Wm4ClodMesh.h" />
+    <ClInclude Include="Detail\Wm4CollapseRecord.h" />
+    <ClInclude Include="Detail\Wm4CreateClodMesh.h" />
+    <ClInclude Include="Detail\Wm4DlodNode.h" />
+    <ClInclude Include="Detail\Wm4SwitchNode.h" />
+    <ClInclude Include="Effects\Wm4DefaultShaderEffect.h" />
+    <ClInclude Include="Effects\Wm4Effect.h" />
+    <ClInclude Include="Effects\Wm4LightingEffect.h" />
+    <ClInclude Include="Effects\Wm4MaterialEffect.h" />
+    <ClInclude Include="Effects\Wm4MaterialTextureEffect.h" />
+    <ClInclude Include="Effects\Wm4MultitextureEffect.h" />
+    <ClInclude Include="Effects\Wm4PlanarReflectionEffect.h" />
+    <ClInclude Include="Effects\Wm4PlanarShadowEffect.h" />
+    <ClInclude Include="Effects\Wm4ShaderEffect.h" />
+    <ClInclude Include="Effects\Wm4TextureEffect.h" />
+    <ClInclude Include="Effects\Wm4VertexColor3Effect.h" />
+    <ClInclude Include="Effects\Wm4VertexColor4Effect.h" />
+    <ClInclude Include="ObjectSystem\Wm4ImageVersion.h" />
+    <ClInclude Include="ObjectSystem\Wm4Main.h" />
+    <ClInclude Include="ObjectSystem\Wm4MainMCR.h" />
+    <ClInclude Include="ObjectSystem\Wm4NameIdMCR.h" />
+    <ClInclude Include="ObjectSystem\Wm4Object.h" />
+    <ClInclude Include="ObjectSystem\Wm4Rtti.h" />
+    <ClInclude Include="ObjectSystem\Wm4RttiMCR.h" />
+    <ClInclude Include="ObjectSystem\Wm4SmartPointer.h" />
+    <ClInclude Include="ObjectSystem\Wm4Stream.h" />
+    <ClInclude Include="ObjectSystem\Wm4StreamMCR.h" />
+    <ClInclude Include="ObjectSystem\Wm4StreamVersion.h" />
+    <ClInclude Include="ObjectSystem\Wm4StringTree.h" />
+    <ClInclude Include="Rendering\Wm4AlphaState.h" />
+    <ClInclude Include="Rendering\Wm4Bindable.h" />
+    <ClInclude Include="Rendering\Wm4Camera.h" />
+    <ClInclude Include="Rendering\Wm4CullState.h" />
+    <ClInclude Include="Rendering\Wm4FrameBuffer.h" />
+    <ClInclude Include="Rendering\Wm4GlobalState.h" />
+    <ClInclude Include="Rendering\Wm4Image.h" />
+    <ClInclude Include="Rendering\Wm4Light.h" />
+    <ClInclude Include="Rendering\Wm4MaterialState.h" />
+    <ClInclude Include="Rendering\Wm4PolygonOffsetState.h" />
+    <ClInclude Include="Rendering\Wm4Renderer.h" />
+    <ClInclude Include="Rendering\Wm4StencilState.h" />
+    <ClInclude Include="Rendering\Wm4Texture.h" />
+    <ClInclude Include="Rendering\Wm4WireframeState.h" />
+    <ClInclude Include="Rendering\Wm4ZBufferState.h" />
+    <ClInclude Include="SceneGraph\Wm4Attributes.h" />
+    <ClInclude Include="SceneGraph\Wm4BoundingVolume.h" />
+    <ClInclude Include="SceneGraph\Wm4BoxBV.h" />
+    <ClInclude Include="SceneGraph\Wm4CameraNode.h" />
+    <ClInclude Include="SceneGraph\Wm4Culler.h" />
+    <ClInclude Include="SceneGraph\Wm4Geometry.h" />
+    <ClInclude Include="SceneGraph\Wm4IndexBuffer.h" />
+    <ClInclude Include="SceneGraph\Wm4LightNode.h" />
+    <ClInclude Include="SceneGraph\Wm4Node.h" />
+    <ClInclude Include="SceneGraph\Wm4Particles.h" />
+    <ClInclude Include="SceneGraph\Wm4Polyline.h" />
+    <ClInclude Include="SceneGraph\Wm4Polypoint.h" />
+    <ClInclude Include="SceneGraph\Wm4Spatial.h" />
+    <ClInclude Include="SceneGraph\Wm4SphereBV.h" />
+    <ClInclude Include="SceneGraph\Wm4StandardMesh.h" />
+    <ClInclude Include="SceneGraph\Wm4Transformation.h" />
+    <ClInclude Include="SceneGraph\Wm4TriMesh.h" />
+    <ClInclude Include="SceneGraph\Wm4VertexBuffer.h" />
+    <ClInclude Include="SceneGraph\Wm4VisibleObject.h" />
+    <ClInclude Include="SceneGraph\Wm4VisibleSet.h" />
+    <ClInclude Include="Shaders\Wm4ImageCatalog.h" />
+    <ClInclude Include="Shaders\Wm4NumericalConstant.h" />
+    <ClInclude Include="Shaders\Wm4PixelProgram.h" />
+    <ClInclude Include="Shaders\Wm4PixelProgramCatalog.h" />
+    <ClInclude Include="Shaders\Wm4PixelShader.h" />
+    <ClInclude Include="Shaders\Wm4Program.h" />
+    <ClInclude Include="Shaders\Wm4RendererConstant.h" />
+    <ClInclude Include="Shaders\Wm4SamplerInformation.h" />
+    <ClInclude Include="Shaders\Wm4Shader.h" />
+    <ClInclude Include="Shaders\Wm4UserConstant.h" />
+    <ClInclude Include="Shaders\Wm4VertexProgram.h" />
+    <ClInclude Include="Shaders\Wm4VertexProgramCatalog.h" />
+    <ClInclude Include="Shaders\Wm4VertexShader.h" />
+    <ClInclude Include="SharedArrays\Wm4ColorRGBAArray.h" />
+    <ClInclude Include="SharedArrays\Wm4ColorRGBArray.h" />
+    <ClInclude Include="SharedArrays\Wm4DoubleArray.h" />
+    <ClInclude Include="SharedArrays\Wm4FloatArray.h" />
+    <ClInclude Include="SharedArrays\Wm4IntArray.h" />
+    <ClInclude Include="SharedArrays\Wm4Matrix2Array.h" />
+    <ClInclude Include="SharedArrays\Wm4Matrix3Array.h" />
+    <ClInclude Include="SharedArrays\Wm4Matrix4Array.h" />
+    <ClInclude Include="SharedArrays\Wm4Plane3Array.h" />
+    <ClInclude Include="SharedArrays\Wm4QuaternionArray.h" />
+    <ClInclude Include="SharedArrays\Wm4TSharedArray.h" />
+    <ClInclude Include="SharedArrays\Wm4Vector2Array.h" />
+    <ClInclude Include="SharedArrays\Wm4Vector3Array.h" />
+    <ClInclude Include="SharedArrays\Wm4Vector4Array.h" />
+    <ClInclude Include="Sorting\Wm4BspNode.h" />
+    <ClInclude Include="Sorting\Wm4ConvexRegion.h" />
+    <ClInclude Include="Sorting\Wm4ConvexRegionManager.h" />
+    <ClInclude Include="Sorting\Wm4CRMCuller.h" />
+    <ClInclude Include="Sorting\Wm4Portal.h" />
+    <ClInclude Include="Surfaces\Wm4BoxSurface.h" />
+    <ClInclude Include="Surfaces\Wm4BSplineSurfacePatch.h" />
+    <ClInclude Include="Surfaces\Wm4RectangleSurface.h" />
+    <ClInclude Include="Surfaces\Wm4RevolutionSurface.h" />
+    <ClInclude Include="Surfaces\Wm4SurfaceMesh.h" />
+    <ClInclude Include="Surfaces\Wm4SurfacePatch.h" />
+    <ClInclude Include="Surfaces\Wm4TubeSurface.h" />
+    <ClInclude Include="Terrain\Wm4ClodTerrain.h" />
+    <ClInclude Include="Terrain\Wm4ClodTerrainBlock.h" />
+    <ClInclude Include="Terrain\Wm4ClodTerrainPage.h" />
+    <ClInclude Include="Terrain\Wm4ClodTerrainVertex.h" />
+    <ClInclude Include="Terrain\Wm4Terrain.h" />
+    <ClInclude Include="Terrain\Wm4TerrainPage.h" />
+    <ClInclude Include="Wm4Graphics.h" />
+    <ClInclude Include="Wm4GraphicsLIB.h" />
+    <ClInclude Include="Wm4GraphicsPCH.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Collision\Wm4BoundingVolumeTree.inl" />
+    <None Include="Collision\Wm4CollisionRecord.inl" />
+    <None Include="Controllers\Wm4Controller.inl" />
+    <None Include="Controllers\Wm4IKGoal.inl" />
+    <None Include="Controllers\Wm4MorphController.inl" />
+    <None Include="Controllers\Wm4ParticleController.inl" />
+    <None Include="Controllers\Wm4PointController.inl" />
+    <None Include="Controllers\Wm4SkinController.inl" />
+    <None Include="Curves\Wm4CurveMesh.inl" />
+    <None Include="Curves\Wm4CurveSegment.inl" />
+    <None Include="Detail\Wm4BillboardNode.inl" />
+    <None Include="Detail\Wm4ClodMesh.inl" />
+    <None Include="Detail\Wm4DlodNode.inl" />
+    <None Include="Detail\Wm4SwitchNode.inl" />
+    <None Include="Effects\Wm4LightingEffect.inl" />
+    <None Include="Effects\Wm4PlanarReflectionEffect.inl" />
+    <None Include="Effects\Wm4PlanarShadowEffect.inl" />
+    <None Include="ObjectSystem\Wm4Object.inl" />
+    <None Include="ObjectSystem\Wm4Rtti.inl" />
+    <None Include="ObjectSystem\Wm4SmartPointer.inl" />
+    <None Include="ObjectSystem\Wm4Stream.inl" />
+    <None Include="ObjectSystem\Wm4StringTree.inl" />
+    <None Include="Rendering\Wm4Camera.inl" />
+    <None Include="Rendering\Wm4FrameBuffer.inl" />
+    <None Include="Rendering\Wm4Image.inl" />
+    <None Include="Rendering\Wm4Renderer.inl" />
+    <None Include="Rendering\Wm4Texture.inl" />
+    <None Include="SceneGraph\Wm4Attributes.inl" />
+    <None Include="SceneGraph\Wm4BoxBV.inl" />
+    <None Include="SceneGraph\Wm4CameraNode.inl" />
+    <None Include="SceneGraph\Wm4Culler.inl" />
+    <None Include="SceneGraph\Wm4Geometry.inl" />
+    <None Include="SceneGraph\Wm4IndexBuffer.inl" />
+    <None Include="SceneGraph\Wm4LightNode.inl" />
+    <None Include="SceneGraph\Wm4Node.inl" />
+    <None Include="SceneGraph\Wm4Particles.inl" />
+    <None Include="SceneGraph\Wm4Polyline.inl" />
+    <None Include="SceneGraph\Wm4Polypoint.inl" />
+    <None Include="SceneGraph\Wm4Spatial.inl" />
+    <None Include="SceneGraph\Wm4SphereBV.inl" />
+    <None Include="SceneGraph\Wm4Transformation.inl" />
+    <None Include="SceneGraph\Wm4TriMesh.inl" />
+    <None Include="SceneGraph\Wm4VertexBuffer.inl" />
+    <None Include="SceneGraph\Wm4VisibleObject.inl" />
+    <None Include="SceneGraph\Wm4VisibleSet.inl" />
+    <None Include="Shaders\Wm4NumericalConstant.inl" />
+    <None Include="Shaders\Wm4Program.inl" />
+    <None Include="Shaders\Wm4RendererConstant.inl" />
+    <None Include="Shaders\Wm4SamplerInformation.inl" />
+    <None Include="Shaders\Wm4Shader.inl" />
+    <None Include="Shaders\Wm4UserConstant.inl" />
+    <None Include="SharedArrays\Wm4TSharedArray.inl" />
+    <None Include="Sorting\Wm4BspNode.inl" />
+    <None Include="Sorting\Wm4ConvexRegion.inl" />
+    <None Include="Sorting\Wm4Portal.inl" />
+    <None Include="Surfaces\Wm4BoxSurface.inl" />
+    <None Include="Surfaces\Wm4RectangleSurface.inl" />
+    <None Include="Surfaces\Wm4RevolutionSurface.inl" />
+    <None Include="Surfaces\Wm4SurfaceMesh.inl" />
+    <None Include="Surfaces\Wm4SurfacePatch.inl" />
+    <None Include="Surfaces\Wm4TubeSurface.inl" />
+    <None Include="Terrain\Wm4ClodTerrain.inl" />
+    <None Include="Terrain\Wm4ClodTerrainBlock.inl" />
+    <None Include="Terrain\Wm4ClodTerrainPage.inl" />
+    <None Include="Terrain\Wm4ClodTerrainVertex.inl" />
+    <None Include="Terrain\Wm4Terrain.inl" />
+    <None Include="Terrain\Wm4TerrainPage.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibFoundation\LibFoundation_VC80.vcxproj">
+      <Project>{9ce08aa4-9163-4a42-bcbf-e361b5ba5bc0}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

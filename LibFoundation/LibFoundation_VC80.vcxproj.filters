@@ -1,0 +1,2259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Approximation">
+      <UniqueIdentifier>{1eb72783-731f-42a8-b405-c877c47d10b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Approximation\Source Files">
+      <UniqueIdentifier>{02fd31e3-ed2e-4c5e-96cf-722820dfee8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Approximation\Header Files">
+      <UniqueIdentifier>{016b76df-9010-4da2-b80a-fd86343da688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment">
+      <UniqueIdentifier>{b74c4db5-64de-45fb-919c-c24c6414e904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment\Source Files">
+      <UniqueIdentifier>{e7b27282-06b0-47c5-a99c-6715a45cc4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment\Header Files">
+      <UniqueIdentifier>{cc575cef-7da3-4e38-909e-aba4d42625cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves">
+      <UniqueIdentifier>{d29ec172-53e2-41a2-90e4-c18681e8db7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves\Source Files">
+      <UniqueIdentifier>{1b5dea4b-4434-4738-9761-1b15b26733c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves\Header Files">
+      <UniqueIdentifier>{2f5226b7-a1a1-4cf4-89da-ac472c78ea5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance">
+      <UniqueIdentifier>{01c21869-f70c-4dbf-b885-746c2981a14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance\Source Files">
+      <UniqueIdentifier>{a18cae63-bf1a-4c70-839b-a43ca726d233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance\Header Files">
+      <UniqueIdentifier>{62cfac0a-39ed-4b48-b2fb-4bd39ffd1fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageAnalysis">
+      <UniqueIdentifier>{2427d644-7252-47b0-9ff5-f6f442c1ae19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageAnalysis\Source Files">
+      <UniqueIdentifier>{4dfacb25-8f59-45a8-aae5-fb55a0504e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageAnalysis\Header Files">
+      <UniqueIdentifier>{d50f6069-7c14-4f26-aa6c-82607bac8c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageAnalysis\Inline Files">
+      <UniqueIdentifier>{215398f0-7db3-4edc-97eb-fb08f223c77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation">
+      <UniqueIdentifier>{9dfbc073-bb42-41c9-ad03-acf30fe7856f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation\Source Files">
+      <UniqueIdentifier>{36bc5f52-8f50-4774-83fc-4fe50a35b3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation\Header Files">
+      <UniqueIdentifier>{15ffb91c-19a4-44fb-9ffc-5480b67e1de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection">
+      <UniqueIdentifier>{d9092363-3720-4768-af48-dcad9649bb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection\Source Files">
+      <UniqueIdentifier>{2803a0cd-134d-498f-81a2-3c873bf27a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection\Header Files">
+      <UniqueIdentifier>{9dbbb803-d384-408c-ab0b-bee1cd195ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mathematics">
+      <UniqueIdentifier>{86d022b4-14a1-449d-9dae-50f634825b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mathematics\Header Files">
+      <UniqueIdentifier>{50adc1a5-c403-4937-aea0-25d5d9aeaf75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mathematics\Inline Files">
+      <UniqueIdentifier>{911a0112-71af-410f-af2d-6048b2c6345f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mathematics\Source Files">
+      <UniqueIdentifier>{d79ee761-7b5a-4476-bba0-2c5b016e9f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{58603f2a-480a-4e67-a463-2da3b48ce567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\Source Files">
+      <UniqueIdentifier>{f12cdfe2-cb42-4130-ab00-e601c966e1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\Header Files">
+      <UniqueIdentifier>{e7585ca8-ad9f-40c0-9630-755dc13d0fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\Inline Files">
+      <UniqueIdentifier>{7655e946-48bd-417c-bf1a-b3c141eaa245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{e81d994d-50bc-44ba-9cd1-5245cf0fd213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous\Source Files">
+      <UniqueIdentifier>{2dec95e5-0c6e-4044-a06b-c48f2ed7eafb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous\Header Files">
+      <UniqueIdentifier>{43c05331-6f8c-4e6f-9af3-a4643b6a2541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NumericalAnalysis">
+      <UniqueIdentifier>{7d8223d6-7a1a-48e5-a6b3-c4860a8740cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NumericalAnalysis\Source Files">
+      <UniqueIdentifier>{c9fb0078-3895-4c4a-8adc-49610460fb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NumericalAnalysis\Header Files">
+      <UniqueIdentifier>{2babc460-0db6-49b4-8296-6818f53b88d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfaces">
+      <UniqueIdentifier>{c68ea6b4-bb41-4acc-bad8-fe9a33a71737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfaces\Source Files">
+      <UniqueIdentifier>{6090cf02-5cec-4796-ba4f-ff47c204959a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfaces\Header Files">
+      <UniqueIdentifier>{59bfcc1c-596d-4804-9212-162a932bc21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{8ac1c514-54dc-4db2-af37-fcb2bff60c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Source Files">
+      <UniqueIdentifier>{3a694648-8fee-452c-ac71-4a41c7f00d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Header Files">
+      <UniqueIdentifier>{bf7932aa-9434-458f-acc7-05f76e511488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Inline Files">
+      <UniqueIdentifier>{63d5b0a1-1238-4149-a777-85e3d0687473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry">
+      <UniqueIdentifier>{55a7c4b9-0567-42b1-a0d9-68189ed2f03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\RationalArithmetic">
+      <UniqueIdentifier>{e192e1c0-80a8-4d12-811a-d28aa5795a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\RationalArithmetic\Header Files">
+      <UniqueIdentifier>{71fd470d-f1e7-46ba-8c1f-b9f8b80c22ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\RationalArithmetic\Inline Files">
+      <UniqueIdentifier>{be1278af-e83b-40a2-8ce8-cc9af429acdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\ConvexHull">
+      <UniqueIdentifier>{1514add1-e697-4855-82c5-52f4400c623f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\ConvexHull\Header Files">
+      <UniqueIdentifier>{0d74e467-4a2a-4878-9879-6a76f773bd75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\ConvexHull\Source Files">
+      <UniqueIdentifier>{abcca769-8a0b-4db8-8444-1fbc5cfe2ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Delaunay">
+      <UniqueIdentifier>{fc054516-9d32-4274-b56e-e829d09614a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Delaunay\Header Files">
+      <UniqueIdentifier>{dee1188a-1db5-4d1f-bccf-b047bff1bd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Delaunay\Source Files">
+      <UniqueIdentifier>{5ec27524-e0ea-417f-a4df-481d2e1cc641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Query">
+      <UniqueIdentifier>{22718d2d-4cf0-4cba-9f05-a65bcf52fe95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Query\Header Files">
+      <UniqueIdentifier>{f239e954-ba5b-49e2-95e0-91cfd935121d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Query\Inline Files">
+      <UniqueIdentifier>{863bc72e-c254-4556-ab45-3f8941aaf4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Triangulation">
+      <UniqueIdentifier>{c6b2ffd3-6cd6-4d41-8442-1453bbcc667b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Triangulation\Header Files">
+      <UniqueIdentifier>{60d9df2e-c439-4348-8a66-cd1383f6490f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputationalGeometry\Triangulation\Source Files">
+      <UniqueIdentifier>{dce94be3-09a3-454c-a3db-0a008847c71e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Approximation\Wm4ApprCircleFit2.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprCylinderFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprEllipseFit2.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprEllipsoidFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprGaussPointsFit2.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprGaussPointsFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprLineFit2.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprLineFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprParaboloidFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprPlaneFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprPolyFit2.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprPolyFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprPolyFit4.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprQuadraticFit2.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprQuadraticFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation\Wm4ApprSphereFit3.cpp">
+      <Filter>Approximation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContBox2.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContBox3.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContCapsule3.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContCircle2.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContCylinder3.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContEllipse2.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContEllipsoid3.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContLozenge3.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContPointInPolygon2.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContScribeCircle2.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContScribeCircle3Sphere3.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContSeparatePoints2.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContSeparatePoints3.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment\Wm4ContSphere3.cpp">
+      <Filter>Containment\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BezierCurve2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BezierCurve3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BSplineBasis.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BSplineCurve2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BSplineCurve3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BSplineFit.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BSplineFitBasis.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BSplineGeodesic.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4BSplineReduction.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4CubicPolynomialCurve2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4CubicPolynomialCurve3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4Curve2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4Curve3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4EllipsoidGeodesic.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4MultipleCurve2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4MultipleCurve3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4NaturalSpline2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4NaturalSpline3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4NURBSCurve2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4NURBSCurve3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4PolynomialCurve2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4PolynomialCurve3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4RiemannianGeodesic.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4SingleCurve2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4SingleCurve3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4TCBSpline2.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curves\Wm4TCBSpline3.cpp">
+      <Filter>Curves\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4Distance.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistCircle3Circle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine2Line2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine2Ray2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine2Segment2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine3Box3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine3Circle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine3Line3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine3Ray3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine3Rectangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine3Segment3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistLine3Triangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistRay2Ray2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistRay2Segment2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistRay3Box3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistRay3Ray3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistRay3Rectangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistRay3Segment3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistRay3Triangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistRectangle3Rectangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistSegment2Segment2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistSegment3Box3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistSegment3Rectangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistSegment3Segment3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistSegment3Triangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistTriangle3Rectangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistTriangle3Triangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector2Box2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector2Ellipse2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector2Line2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector2Quadratic2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector2Ray2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector2Segment2.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Box3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Circle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Ellipsoid3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Frustum3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Line3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Plane3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Quadratic3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Ray3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Rectangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Segment3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Tetrahedron3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Wm4DistVector3Triangle3.cpp">
+      <Filter>Distance\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4Binary2D.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4Binary3D.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4Element.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4ExtractSurfaceCubes.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4ExtractSurfaceTetra.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4FastBlur.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4ImageConvert.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4Images.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4Lattice.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\Wm4RasterDrawing.cpp">
+      <Filter>ImageAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpAkima1.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpAkimaNonuniform1.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpAkimaUniform1.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpAkimaUniform2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpAkimaUniform3.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpBicubic2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpBilinear2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpBSplineUniform.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpBSplineUniform1.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpBSplineUniform2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpBSplineUniform3.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpBSplineUniform4.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpBSplineUniformN.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpLinearNonuniform2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpLinearNonuniform3.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpQdrNonuniform2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpSphere2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpThinPlateSpline2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpThinPlateSpline3.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpTricubic3.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpTrilinear3.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation\Wm4IntpVectorField2.cpp">
+      <Filter>Interpolation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4Intersector.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4Intersector1.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrArc2Arc2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrArc2Circle2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrBox2Box2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrBox2Circle2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrBox3Box3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrBox3Frustum3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrBox3Sphere3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrCapsule3Capsule3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrCircle2Circle2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrCircle3Plane3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrEllipse2Ellipse2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLinComp2LinComp2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLinComp2Triangle2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine2Arc2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine2Box2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine2Circle2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Box3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Capsule3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Cone3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Cylinder3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Ellipsoid3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Lozenge3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Plane3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Sphere3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Torus3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLine3Triangle3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrLozenge3Lozenge3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrPlane3Box3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrPlane3Capsule3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrPlane3Cylinder3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrPlane3Ellipsoid3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrPlane3Lozenge3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrPlane3Plane3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrPlane3Sphere3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrPlane3Triangle3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay2Arc2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay2Box2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay2Circle2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay3Box3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay3Capsule3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay3Cylinder3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay3Ellipsoid3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay3Lozenge3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay3Plane3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay3Sphere3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrRay3Triangle3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment2Arc2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment2Box2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment2Circle2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment3Box3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment3Capsule3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment3Cylinder3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment3Ellipsoid3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment3Lozenge3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment3Plane3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment3Sphere3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSegment3Triangle3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSphere3Cone3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSphere3Frustum3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrSphere3Sphere3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrTetrahedron3Tetrahedron3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrTriangle2Triangle2.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrTriangle3Cone3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection\Wm4IntrTriangle3Triangle3.cpp">
+      <Filter>Intersection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4BSplineVolume.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4ColorRGB.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4ColorRGBA.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4Math.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4Matrix2.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4Matrix3.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4Matrix4.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4Quaternion.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4Vector2.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4Vector3.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics\Wm4Vector4.cpp">
+      <Filter>Mathematics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Wm4BasicMesh.cpp">
+      <Filter>Meshes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Wm4ConformalMap.cpp">
+      <Filter>Meshes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Wm4ETManifoldMesh.cpp">
+      <Filter>Meshes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Wm4ETNonmanifoldMesh.cpp">
+      <Filter>Meshes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Wm4MeshCurvature.cpp">
+      <Filter>Meshes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Wm4MeshSmoother.cpp">
+      <Filter>Meshes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Wm4VEManifoldMesh.cpp">
+      <Filter>Meshes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscellaneous\Wm4GridGraph2.cpp">
+      <Filter>Miscellaneous\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscellaneous\Wm4NormalCompression.cpp">
+      <Filter>Miscellaneous\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscellaneous\Wm4PerspProjEllipsoid.cpp">
+      <Filter>Miscellaneous\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscellaneous\Wm4QuadToQuadTransforms.cpp">
+      <Filter>Miscellaneous\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscellaneous\Wm4RandomHypersphere.cpp">
+      <Filter>Miscellaneous\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscellaneous\Wm4TangentsToCircles.cpp">
+      <Filter>Miscellaneous\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4Bisect1.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4Bisect2.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4Bisect3.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4Eigen.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4Integrate1.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4LinearSystem.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4Minimize1.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4MinimizeN.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4OdeEuler.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4OdeImplicitEuler.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4OdeMidpoint.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4OdeRungeKutta4.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4OdeSolver.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalAnalysis\Wm4PolynomialRoots.cpp">
+      <Filter>NumericalAnalysis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4BSplineRectangle.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4ImplicitSurface.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4NURBSRectangle.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4ParametricSurface.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4QuadricSurface.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Surfaces\Wm4Surface.cpp">
+      <Filter>Surfaces\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Wm4Command.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Wm4Memory.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Wm4System.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4ConvexHull.cpp">
+      <Filter>ComputationalGeometry\ConvexHull\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4ConvexHull1.cpp">
+      <Filter>ComputationalGeometry\ConvexHull\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4ConvexHull2.cpp">
+      <Filter>ComputationalGeometry\ConvexHull\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4ConvexHull3.cpp">
+      <Filter>ComputationalGeometry\ConvexHull\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4HullEdge2.cpp">
+      <Filter>ComputationalGeometry\ConvexHull\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4HullTriangle3.cpp">
+      <Filter>ComputationalGeometry\ConvexHull\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4Delaunay.cpp">
+      <Filter>ComputationalGeometry\Delaunay\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4Delaunay1.cpp">
+      <Filter>ComputationalGeometry\Delaunay\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4Delaunay2.cpp">
+      <Filter>ComputationalGeometry\Delaunay\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4Delaunay3.cpp">
+      <Filter>ComputationalGeometry\Delaunay\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4DelPolygonEdge.cpp">
+      <Filter>ComputationalGeometry\Delaunay\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4DelPolyhedronFace.cpp">
+      <Filter>ComputationalGeometry\Delaunay\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4DelTetrahedron.cpp">
+      <Filter>ComputationalGeometry\Delaunay\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4DelTriangle.cpp">
+      <Filter>ComputationalGeometry\Delaunay\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationalGeometry\Wm4TriangulateEC.cpp">
+      <Filter>ComputationalGeometry\Triangulation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4FoundationPCH.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Approximation\Wm4ApprCircleFit2.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprCylinderFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprEllipseFit2.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprEllipsoidFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprGaussPointsFit2.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprGaussPointsFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprLineFit2.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprLineFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprParaboloidFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprPlaneFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprPolyFit2.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprPolyFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprPolyFit4.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprQuadraticFit2.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprQuadraticFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation\Wm4ApprSphereFit3.h">
+      <Filter>Approximation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContBox2.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContBox3.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContCapsule3.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContCircle2.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContCylinder3.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContEllipse2.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContEllipsoid3.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContLozenge3.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContPointInPolygon2.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContScribeCircle2.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContScribeCircle3Sphere3.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContSeparatePoints2.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContSeparatePoints3.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment\Wm4ContSphere3.h">
+      <Filter>Containment\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BezierCurve2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BezierCurve3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BSplineBasis.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BSplineCurve2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BSplineCurve3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BSplineFit.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BSplineFitBasis.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BSplineGeodesic.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4BSplineReduction.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4CubicPolynomialCurve2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4CubicPolynomialCurve3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4Curve2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4Curve3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4EllipsoidGeodesic.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4MultipleCurve2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4MultipleCurve3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4NaturalSpline2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4NaturalSpline3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4NURBSCurve2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4NURBSCurve3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4PolynomialCurve2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4PolynomialCurve3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4RiemannianGeodesic.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4SingleCurve2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4SingleCurve3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4TCBSpline2.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves\Wm4TCBSpline3.h">
+      <Filter>Curves\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4Distance.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistCircle3Circle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine2Line2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine2Ray2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine2Segment2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine3Box3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine3Circle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine3Line3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine3Ray3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine3Rectangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine3Segment3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistLine3Triangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistRay2Ray2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistRay2Segment2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistRay3Box3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistRay3Ray3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistRay3Rectangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistRay3Segment3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistRay3Triangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistRectangle3Rectangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistSegment2Segment2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistSegment3Box3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistSegment3Rectangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistSegment3Segment3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistSegment3Triangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistTriangle3Rectangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistTriangle3Triangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector2Box2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector2Ellipse2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector2Line2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector2Quadratic2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector2Ray2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector2Segment2.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Box3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Circle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Ellipsoid3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Frustum3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Line3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Plane3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Quadratic3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Ray3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Rectangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Segment3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Tetrahedron3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Wm4DistVector3Triangle3.h">
+      <Filter>Distance\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4Binary2D.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4Binary3D.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4Element.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4ExtractSurfaceCubes.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4ExtractSurfaceTetra.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4FastBlur.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4ImageConvert.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4Images.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4Lattice.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4RasterDrawing.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4TImage.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4TImage2D.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\Wm4TImage3D.h">
+      <Filter>ImageAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpAkima1.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpAkimaNonuniform1.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpAkimaUniform1.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpAkimaUniform2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpAkimaUniform3.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpBicubic2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpBilinear2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpBSplineUniform.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpBSplineUniform1.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpBSplineUniform2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpBSplineUniform3.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpBSplineUniform4.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpBSplineUniformN.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpLinearNonuniform2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpLinearNonuniform3.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpQdrNonuniform2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpSphere2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpThinPlateSpline2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpThinPlateSpline3.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpTricubic3.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpTrilinear3.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation\Wm4IntpVectorField2.h">
+      <Filter>Interpolation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4Intersector.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4Intersector1.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrArc2Arc2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrArc2Circle2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrBox2Box2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrBox2Circle2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrBox3Box3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrBox3Frustum3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrBox3Sphere3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrCapsule3Capsule3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrCircle2Circle2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrCircle3Plane3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrEllipse2Ellipse2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLinComp2LinComp2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLinComp2Triangle2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine2Arc2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine2Box2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine2Circle2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Box3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Capsule3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Cone3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Cylinder3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Ellipsoid3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Lozenge3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Plane3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Sphere3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Torus3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLine3Triangle3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrLozenge3Lozenge3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrPlane3Box3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrPlane3Capsule3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrPlane3Cylinder3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrPlane3Ellipsoid3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrPlane3Lozenge3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrPlane3Plane3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrPlane3Sphere3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrPlane3Triangle3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay2Arc2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay2Box2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay2Circle2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay3Box3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay3Capsule3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay3Cylinder3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay3Ellipsoid3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay3Lozenge3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay3Plane3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay3Sphere3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrRay3Triangle3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment2Arc2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment2Box2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment2Circle2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment3Box3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment3Capsule3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment3Cylinder3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment3Ellipsoid3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment3Lozenge3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment3Plane3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment3Sphere3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSegment3Triangle3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSphere3Cone3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSphere3Frustum3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrSphere3Sphere3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrTetrahedron3Tetrahedron3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrTriangle2Triangle2.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrTriangle3Cone3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection\Wm4IntrTriangle3Triangle3.h">
+      <Filter>Intersection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Arc2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4AxisAlignedBox2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4AxisAlignedBox3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4BandedMatrix.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4BitHacks.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Box2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Box3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4BSplineVolume.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Capsule3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Circle2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Circle3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4ColorRGB.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4ColorRGBA.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Cone3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4ConvexPolyhedron3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Cylinder3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Ellipse2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Ellipsoid3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Frustum3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4GMatrix.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4GVector.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4LinComp.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4LinComp2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4LinComp3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Line2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Line3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Lozenge3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Mapper2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Mapper3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Math.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4MathMCR.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Matrix2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Matrix3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Matrix4.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Plane3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Polyhedron3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Polynomial1.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Quadratic2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Quadratic3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Quaternion.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Ray2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Ray3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Rectangle3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Segment2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Segment3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Sphere3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Tetrahedron3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Torus3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Triangle2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Triangle3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Vector2.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Vector3.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics\Wm4Vector4.h">
+      <Filter>Mathematics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4BasicMesh.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4ConformalMap.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4EdgeKey.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4ETManifoldMesh.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4ETNonmanifoldMesh.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4MeshCurvature.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4MeshSmoother.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4PlanarGraph.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4TriangleKey.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4UniqueVerticesTriangles.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Wm4VEManifoldMesh.h">
+      <Filter>Meshes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous\Wm4GridGraph2.h">
+      <Filter>Miscellaneous\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous\Wm4NormalCompression.h">
+      <Filter>Miscellaneous\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous\Wm4PerspProjEllipsoid.h">
+      <Filter>Miscellaneous\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous\Wm4QuadToQuadTransforms.h">
+      <Filter>Miscellaneous\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous\Wm4RandomHypersphere.h">
+      <Filter>Miscellaneous\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous\Wm4TangentsToCircles.h">
+      <Filter>Miscellaneous\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4Bisect1.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4Bisect2.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4Bisect3.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4Eigen.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4Integrate1.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4LinearSystem.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4Minimize1.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4MinimizeN.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4OdeEuler.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4OdeImplicitEuler.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4OdeMidpoint.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4OdeRungeKutta4.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4OdeSolver.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalAnalysis\Wm4PolynomialRoots.h">
+      <Filter>NumericalAnalysis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4BSplineRectangle.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4ImplicitSurface.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4NURBSRectangle.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4ParametricSurface.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4QuadricSurface.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\Wm4Surface.h">
+      <Filter>Surfaces\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4Command.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4Memory.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4Platforms.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4System.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4THashSet.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4THashTable.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4TSmallUnorderedSet.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4TStringHashTable.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Wm4TTuple.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4IVector2.h">
+      <Filter>ComputationalGeometry\RationalArithmetic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4IVector3.h">
+      <Filter>ComputationalGeometry\RationalArithmetic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4RVector2.h">
+      <Filter>ComputationalGeometry\RationalArithmetic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4RVector3.h">
+      <Filter>ComputationalGeometry\RationalArithmetic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4TInteger.h">
+      <Filter>ComputationalGeometry\RationalArithmetic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4TIVector.h">
+      <Filter>ComputationalGeometry\RationalArithmetic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4TRational.h">
+      <Filter>ComputationalGeometry\RationalArithmetic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4TRVector.h">
+      <Filter>ComputationalGeometry\RationalArithmetic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4ConvexHull.h">
+      <Filter>ComputationalGeometry\ConvexHull\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4ConvexHull1.h">
+      <Filter>ComputationalGeometry\ConvexHull\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4ConvexHull2.h">
+      <Filter>ComputationalGeometry\ConvexHull\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4ConvexHull3.h">
+      <Filter>ComputationalGeometry\ConvexHull\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4HullEdge2.h">
+      <Filter>ComputationalGeometry\ConvexHull\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4HullTriangle3.h">
+      <Filter>ComputationalGeometry\ConvexHull\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Delaunay.h">
+      <Filter>ComputationalGeometry\Delaunay\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Delaunay1.h">
+      <Filter>ComputationalGeometry\Delaunay\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Delaunay2.h">
+      <Filter>ComputationalGeometry\Delaunay\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Delaunay3.h">
+      <Filter>ComputationalGeometry\Delaunay\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4DelPolygonEdge.h">
+      <Filter>ComputationalGeometry\Delaunay\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4DelPolyhedronFace.h">
+      <Filter>ComputationalGeometry\Delaunay\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4DelTetrahedron.h">
+      <Filter>ComputationalGeometry\Delaunay\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4DelTriangle.h">
+      <Filter>ComputationalGeometry\Delaunay\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query2.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query2Filtered.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query2Int64.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query2TInteger.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query2TRational.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query3.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query3Filtered.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query3Int64.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query3TInteger.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4Query3TRational.h">
+      <Filter>ComputationalGeometry\Query\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationalGeometry\Wm4TriangulateEC.h">
+      <Filter>ComputationalGeometry\Triangulation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4Foundation.h" />
+    <ClInclude Include="Wm4FoundationLIB.h" />
+    <ClInclude Include="Wm4FoundationPCH.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageAnalysis\Wm4Element.inl">
+      <Filter>ImageAnalysis\Inline Files</Filter>
+    </None>
+    <None Include="ImageAnalysis\Wm4ExtractSurfaceCubes.inl">
+      <Filter>ImageAnalysis\Inline Files</Filter>
+    </None>
+    <None Include="ImageAnalysis\Wm4Lattice.inl">
+      <Filter>ImageAnalysis\Inline Files</Filter>
+    </None>
+    <None Include="ImageAnalysis\Wm4TImage.inl">
+      <Filter>ImageAnalysis\Inline Files</Filter>
+    </None>
+    <None Include="ImageAnalysis\Wm4TImage2D.inl">
+      <Filter>ImageAnalysis\Inline Files</Filter>
+    </None>
+    <None Include="ImageAnalysis\Wm4TImage3D.inl">
+      <Filter>ImageAnalysis\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Arc2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4AxisAlignedBox2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4AxisAlignedBox3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4BandedMatrix.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4BitHacks.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Box2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Box3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Capsule3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Circle2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Circle3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4ColorRGB.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4ColorRGBA.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Cone3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4ConvexPolyhedron3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Cylinder3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Ellipse2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Ellipsoid3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Frustum3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4GMatrix.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4GVector.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4LinComp.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4LinComp2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4LinComp3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Line2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Line3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Lozenge3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Mapper2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Mapper3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Math.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Matrix2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Matrix3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Matrix4.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Plane3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Polyhedron3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Polynomial1.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Quadratic2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Quadratic3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Quaternion.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Ray2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Ray3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Rectangle3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Segment2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Segment3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Sphere3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Tetrahedron3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Torus3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Triangle2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Triangle3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Vector2.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Vector3.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Mathematics\Wm4Vector4.inl">
+      <Filter>Mathematics\Inline Files</Filter>
+    </None>
+    <None Include="Meshes\Wm4BasicMesh.inl">
+      <Filter>Meshes\Inline Files</Filter>
+    </None>
+    <None Include="Meshes\Wm4EdgeKey.inl">
+      <Filter>Meshes\Inline Files</Filter>
+    </None>
+    <None Include="Meshes\Wm4ETManifoldMesh.inl">
+      <Filter>Meshes\Inline Files</Filter>
+    </None>
+    <None Include="Meshes\Wm4ETNonmanifoldMesh.inl">
+      <Filter>Meshes\Inline Files</Filter>
+    </None>
+    <None Include="Meshes\Wm4PlanarGraph.inl">
+      <Filter>Meshes\Inline Files</Filter>
+    </None>
+    <None Include="Meshes\Wm4TriangleKey.inl">
+      <Filter>Meshes\Inline Files</Filter>
+    </None>
+    <None Include="Meshes\Wm4UniqueVerticesTriangles.inl">
+      <Filter>Meshes\Inline Files</Filter>
+    </None>
+    <None Include="Meshes\Wm4VEManifoldMesh.inl">
+      <Filter>Meshes\Inline Files</Filter>
+    </None>
+    <None Include="System\Wm4Memory.inl">
+      <Filter>System\Inline Files</Filter>
+    </None>
+    <None Include="System\Wm4System.inl">
+      <Filter>System\Inline Files</Filter>
+    </None>
+    <None Include="System\Wm4THashSet.inl">
+      <Filter>System\Inline Files</Filter>
+    </None>
+    <None Include="System\Wm4THashTable.inl">
+      <Filter>System\Inline Files</Filter>
+    </None>
+    <None Include="System\Wm4TSmallUnorderedSet.inl">
+      <Filter>System\Inline Files</Filter>
+    </None>
+    <None Include="System\Wm4TStringHashTable.inl">
+      <Filter>System\Inline Files</Filter>
+    </None>
+    <None Include="System\Wm4TTuple.inl">
+      <Filter>System\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4IVector2.inl">
+      <Filter>ComputationalGeometry\RationalArithmetic\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4IVector3.inl">
+      <Filter>ComputationalGeometry\RationalArithmetic\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4RVector2.inl">
+      <Filter>ComputationalGeometry\RationalArithmetic\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4RVector3.inl">
+      <Filter>ComputationalGeometry\RationalArithmetic\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4TInteger.inl">
+      <Filter>ComputationalGeometry\RationalArithmetic\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4TIVector.inl">
+      <Filter>ComputationalGeometry\RationalArithmetic\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4TRational.inl">
+      <Filter>ComputationalGeometry\RationalArithmetic\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4TRVector.inl">
+      <Filter>ComputationalGeometry\RationalArithmetic\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query2.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query2Filtered.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query2Int64.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query2TInteger.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query2TRational.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query3.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query3Filtered.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query3Int64.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query3TInteger.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+    <None Include="ComputationalGeometry\Wm4Query3TRational.inl">
+      <Filter>ComputationalGeometry\Query\Inline Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
